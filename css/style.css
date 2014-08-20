@@ -1,0 +1,55 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width: 1280px;
+	background-color: #CCCCCC;
+	height: inherit;
+	/*margin: 0 auto 0 auto;*/
+}
+
+#container {
+	width: 1000px;
+	height: 500px;
+	margin-left: 140px;
+	margin-right: 140px;
+	margin-top: 75px;
+	background-color: white;
+}
+
+#content {
+	background-color: blue;
+	width: 800px;
+	height: 400px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float: left;
+	
+}
+
+#form_wrapper {
+	border: 2px solid black;
+	width: 400px;
+}
+
+#form_wrapper form {
+	width: 400px;
+	background-color: #E4D790;
+	color: #245E06;
+}
+
+#tax_display {
+	margin-left: 465px;
+	margin-top: 40px;
+	width: 400px;
+	float:left;
+	border: 2px solid black;
+}
+
+#total_monthly_salary {
+	margin-left: 10px;
+}
