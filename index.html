@@ -6,16 +6,19 @@
 	<body>
 		<div id="container">
 			<div id="header">
+				A Simple Philippine Tax Calculator
 			</div>
 			<div id="content">
 				<div id="form_wrapper">
+					<center>
 					<form id="tax_calculator_form">
 						<input id="monthly_salary" type="text">
 						<button type="button" onclick="displayOutput(document.getElementById('monthly_salary').value)">Calculate!</button>
 					</form>
+					</center>
 				</div>
 				<div id="tax_display">
-					<p id="total_monthly_salary" style="font-size:30px;color=blue";></p>
+					<p id="total_monthly_salary"></p>
 				</div>
 			</div>
 		</div>

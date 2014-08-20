@@ -10,6 +10,10 @@ body {
 	/*margin: 0 auto 0 auto;*/
 }
 
+p {
+	font-size: 10px;
+}
+
 #container {
 	width: 1000px;
 	height: 500px;
@@ -17,39 +21,61 @@ body {
 	margin-right: 140px;
 	margin-top: 75px;
 	background-color: white;
+	border: 0px solid;
+}
+
+#header {
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 #content {
-	background-color: blue;
+	background-color: #C4CDFF;
 	width: 800px;
 	height: 400px;
 	margin-left: 100px;
 	margin-right: 100px;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-bottom: 50px;
 	float: left;
-	
+	border: 0px solid;
 }
 
 #form_wrapper {
-	border: 2px solid black;
 	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:30px;
 }
 
 #form_wrapper form {
 	width: 400px;
-	background-color: #E4D790;
+	background-color: #7489FF;
 	color: #245E06;
 }
 
 #tax_display {
-	margin-left: 465px;
-	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
 	width: 400px;
-	float:left;
-	border: 2px solid black;
+	background-color: #3855FA;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 #total_monthly_salary {
-	margin-left: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	font-size: 100%;
+	color: white;
 }
+
+#error_wrapper {
+	background-color: #EFF1FF;
+	width: 400px;
+}
+
+#error_display {
+	color: red;
+}
+
