@@ -13,7 +13,8 @@
 					<center>
 					<form id="tax_calculator_form">
 						<input id="monthly_salary" type="text">
-						<button type="button" onclick="displayOutput(document.getElementById('monthly_salary').value)">Calculate!</button>
+						<!--document.getElementById('monthly_salary').value-->
+						<button type="button" onclick="calculateTax()">Calculate!</button>
 					</form>
 					</center>
 				</div>
@@ -25,7 +26,16 @@
 	</body>
 	
 	<!-- Javascript file referenced at this directory: ../js/-->
-	<script src="js/taxcalculate.js"></script>
+	<script src="js/taxcalculator.class.js"></script>
 	<!-- CSS file linked referenced at this directory: ../css/-->
 	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- Javascript functions below -->
+	<script>
+	function calculateTax() {
+		//This instantiates a TaxCalculator object and displays the results.
+		var calc1 = new TaxCalculator(document.getElementById('monthly_salary').value);
+		document.getElementById("total_monthly_salary").innerHTML = calc1.displayResults();
+	}
+	</script>
 </html>
